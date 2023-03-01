@@ -8,16 +8,6 @@
 
 }
 
-.attribution {
-  
-  font-size: 12px;
-  text-align: center;
-  margin-top: 10px;
-  height: 5vh;
-}
-.attribution a {
-  color: hsl(228, 45%, 44%);
-}
 
 
 body{
@@ -155,7 +145,7 @@ span{
     
   }
   input{
-    margin:15px 20px;
+    margin:15px auto;
      width: 90%;
      border: 1px solid rgba(128, 128, 128, 0.692);
      border-radius: 5px;
@@ -192,6 +182,18 @@ span{
       text-align: center;
     
     }
+
+    .attribution {
+  
+      font-size: 12px;
+      text-align: center;
+      margin-top: 10px;
+      height: 5vh;
+    }
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+    
 }
 
 @media (min-width: 769px) {
@@ -205,6 +207,8 @@ span{
     justify-content: center;
     align-items: center;
   }
+ 
+  
   input{
     margin:20px 20px;
      width: 80%;
@@ -269,5 +273,16 @@ span{
       color:rgba(255, 255, 255, 0.795);
     }
 
+    .attribution {
+  
+      font-size: 20px;
+      text-align: center;
+      margin-top: 0px;
+      height: 5vh;
+      margin-top: 20px;
+    }
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
     
 }
