@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+
+:root{
+  --red : hsl(0, 100%, 74%) ;
+  -green : hsl(154, 59%, 51%);
+  --blue : hsl(248, 32%, 49%);
+
+}
+
+.attribution {
+  
+  font-size: 12px;
+  text-align: center;
+  margin-top: 10px;
+  height: 5vh;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+
+body{
+  font-family: 'Poppins', sans-serif;
+}
+
+.section-container-main{
+  height: 150vh;
+  background-image: url(../images/bg-intro-desktop.png);
+  background-color:var(--red);
+  padding: 30px;
+}
+
+.section-title{
+  background-color: var(--blue) ;
+  border-radius: 10px;
+  color: white;
+  padding: 10px 100px;
+  text-align: center;
+  margin-top: 40px;
+  
+}
+.section-title h1{
+  font-size: 18px;
+  
+}
+
+.section-form{
+  margin-top: 20px;
+  background-color: white;
+  height: auto;
+  border-radius: 15px;
+  padding: 10px 5px;
+  text-align: center;
+  box-shadow: -1px 11px 5px 0px rgba(0, 0, 0, 0.205);
+
+}
+.section-form p{
+  margin: 0px 30px;
+
+}
+
+input{
+margin: 15px 20px;
+ width: 400px;
+ border: 1px solid rgba(128, 128, 128, 0.692);
+ border-radius: 5px;
+ height: 50px;
+ padding: 0px 0px 0px 20px;
+ color:gray ;
+ font-weight: bold;
+}
+
+button{
+  
+  width: 350px;
+  margin:10px 20px;
+  height: 60px;
+  background-color: hsl(154, 59%, 51%) !important;
+  color: white !important;
+  font-size: 25px !important;
+  padding: 5px 0px !important;
+}
+button:hover{
+
+  background-color: hsla(154, 59%, 51%, 0.596) !important;
+
+}
+
+span{
+  color: var(--red);
+}
+.muted{
+  color:rgba(255, 255, 255, 0.623);
+}
+
+.section-left{
+  text-align: center;
+}
+.section-left h1{
+  padding: 20px 30px;
+  font-weight: bold;
+  color: white;
+  margin-top: 50px;
+}
+.section-left p{
+  color:rgba(255, 255, 255, 0.795);
+}
+
+.input-error{
+  background-image: url(../images/icon-error.svg);
+  background-repeat: no-repeat;
+  background-position: 95% 50% ;
+  border: 1px red solid;
+
+}
+
+.section-form p{
+  margin-left: 30px;
+  font-size: 14px;
+  color: red;
+
+}
+
+.footer-form p{
+  color: black;
+  margin-left: 40px;
+}
+
+
+
+
+@media (max-width: 768px) {
+
+  .section-container-main{
+    height: auto;
+    background-image: url(../images/bg-intro-desktop.png);
+    background-color:var(--red);
+    padding: 30px;
+  }
+
+  .section-title{
+    background-color: var(--blue) ;
+    border-radius: 10px;
+    color: white;
+    padding: 20px 60px;
+    text-align: center;
+    margin-top: 40px;
+    
+  }
+
+  .section-title h1{
+    
+    font-size: 16px;
+    
+  }
+  input{
+    margin:15px 20px;
+     width: 90%;
+     border: 1px solid rgba(128, 128, 128, 0.692);
+     border-radius: 5px;
+     height: 50px;
+     padding: auto;
+     color:gray ;
+     font-weight: bold;
+    }
+
+    .input-error{
+      background-image: url(../images/icon-error.svg);
+      background-repeat: no-repeat;
+      background-position: 95% 50% ;
+      border: 1px red solid;
+    
+    }
+    
+    button{
+      
+      width: 90%;
+      margin:10px 20px;
+      height: 60px;
+      background-color: hsl(154, 59%, 51%) !important;
+      color: white !important;
+      font-size: 20px !important;
+      padding: 15px !important;
+    }
+    .section-form{
+      margin-top: 20px;
+      background-color: white;
+      height: auto;
+      border-radius: 15px;
+      padding: 10px 5px;
+      text-align: center;
+    
+    }
+}
+
+@media (min-width: 769px) {
+
+  .section-container-main{
+    height: 100vh;
+    background-image: url(../images/bg-intro-desktop.png);
+    background-color: var(--red);
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  input{
+    margin:20px 20px;
+     width: 80%;
+     border: 1px solid rgba(128, 128, 128, 0.692);
+     border-radius: 5px;
+     height: 50px;
+     padding: auto;
+     color:gray ;
+     font-weight: bold;
+    }
+    
+    button{
+      
+      width: 90%;
+      margin:10px 20px;
+      height: 60px;
+      background-color: hsl(154, 59%, 51%) !important;
+      color: white !important;
+      font-size: 15px !important;
+      padding: 5px 0px !important;
+    }
+    
+    .section-left{
+      text-align: start;
+      padding: 180px 150px 0px 150px;
+    
+
+
+    }
+
+    .section-form{
+      margin-top: 20px;
+      background-color: white;
+      height: auto;
+      border-radius: 15px;
+      padding: 10px 5px;
+      text-align: center;
+      width: 100%;
+      margin:  20px auto;
+    
+    }
+
+    .section-title{
+      background-color: var(--blue) ;
+      border-radius: 10px;
+      color: white;
+      padding: 10px 100px;
+      text-align: center;
+      margin: 40px auto;
+      width: 100%;
+      
+    }
+    .section-left h1{
+     
+      padding: 0 ;
+      font-weight: 700;
+      
+      color: white;
+     
+    }
+    .section-left p{
+      color:rgba(255, 255, 255, 0.795);
+    }
+
+    
+}
